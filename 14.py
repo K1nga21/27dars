@@ -56,8 +56,8 @@ person = Person("Otabek", 23)
 print(person.get_name())  # Ali
 print(person.get_age())
 
-account = Account(100)
-account.deposit(50)
+account = Account(100000)
+account.deposit(5500)
 account.withdraw(30)
 
 print(account.get_balance())  # 120
