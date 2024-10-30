@@ -12,14 +12,6 @@ class Person:
     def set_name(self, name):
         self.__name = name
 
-    def set_age(self, age):
-        if age >= 0:
-            self.__age = age
-        else:
-            raise ValueError("Yosh manfiy bo'lishi mumkin emas.")
-
-
-
 class Account:
     def __init__(self, initial_balance=0):
         self.__balance = initial_balance
